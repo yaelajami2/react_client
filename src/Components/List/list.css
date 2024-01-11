@@ -1,0 +1,55 @@
+.ul-list{
+    background-color:#ffff !important;
+        margin-right: 0 !important;
+     margin-left: 0 !important;
+}
+.every-trip{
+    border: 1px solid rgb(29, 33, 37);
+    
+}
+.every-tripb p{
+    width: fit-content;
+
+    
+}
+.button_filter svg{
+    padding-left: 2px;
+}
+.ul-list a{
+  
+    color: black !important;
+    display: contents !important;
+
+}
+.every-trip{
+     padding-right: 0px !important;
+     padding-left: 0px !important;
+
+  
+}
+@media (min-width:767px) {
+    .every-trip{
+    margin: 20px 20px 20px 20px;
+    }
+    
+}
+img{
+    height: 500px;
+    width: 100%;
+    opacity: 0.8;
+}
+  #removelist h3{
+    text-align: initial;
+    
+            padding-bottom: 176px;
+            position: absolute;
+            color: #161515;
+            top: 17px;
+            /* text-align: center; */
+            font-weight: 600;
+            font-size: 33px;
+            right: 5px;
+     }
+h1{
+    text-align: center;
+}

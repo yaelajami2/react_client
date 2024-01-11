@@ -1,0 +1,76 @@
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(29, 33, 37);
+  }
+  
+  li {   
+    float: right;
+  }
+  
+  li a { direction: rtl;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  input{
+    align-items:center;
+    display:block;
+   
+  }
+  .frame2{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 25%;
+    margin-top: 15%;
+    margin-right: 35%;
+    
+ 
+
+} 
+.frame2 .alert
+{
+  display: flex;
+flex-direction: row;
+margin-top: 5px;
+margin-bottom: 2px;
+width: 100%;
+   max-width: 100%;
+}
+
+  .check_buton{
+          margin-bottom: 10%;
+    }
+.frame2 label,input{
+  margin-top: 8px;
+}
+.valid{
+  margin-top: 8px;
+  color: red;
+  margin-right: 20px;
+  margin-bottom: 8px;
+}
+.login_img{
+  display: flex;
+align-content: center;
+justify-content: center;}
+
+ 
+
+
+  
